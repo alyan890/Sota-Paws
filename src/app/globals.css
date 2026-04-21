@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.65;
+  background:
+    radial-gradient(circle at 12% 12%, rgba(141, 184, 201, 0.24), transparent 24%),
+    radial-gradient(circle at 86% 16%, rgba(120, 164, 188, 0.18), transparent 22%),
+    linear-gradient(180deg, #f6fbfe 0%, #eff7fb 48%, #e7f2f8 100%);
+  color: #0a2134;
+  font-synthesis: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 10% 18%, rgba(141, 184, 201, 0.28) 0 16px, transparent 17px),
+    radial-gradient(circle at 18% 28%, rgba(141, 184, 201, 0.22) 0 10px, transparent 11px),
+    radial-gradient(circle at 82% 22%, rgba(111, 158, 180, 0.28) 0 15px, transparent 16px),
+    radial-gradient(circle at 88% 36%, rgba(111, 158, 180, 0.2) 0 9px, transparent 10px),
+    radial-gradient(circle at 50% 8%, rgba(141, 184, 201, 0.16) 0 12px, transparent 13px);
+  background-size: auto;
+  opacity: 0.5;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), transparent 75%);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260'%3E%3Crect width='260' height='260' fill='none'/%3E%3Cg fill='%236f9eb4' fill-opacity='0.33'%3E%3Cellipse cx='46' cy='56' rx='12' ry='9'/%3E%3Cellipse cx='67' cy='46' rx='10' ry='8'/%3E%3Cellipse cx='89' cy='46' rx='10' ry='8'/%3E%3Cellipse cx='110' cy='56' rx='12' ry='9'/%3E%3Cpath d='M76 66c-14 0-25 10-25 23 0 9 8 16 18 16 7 0 13-3 17-8 4 5 10 8 17 8 10 0 18-7 18-16 0-13-11-23-25-23H76z'/%3E%3C/g%3E%3Cg fill='%238db8c9' fill-opacity='0.34'%3E%3Ccircle cx='194' cy='54' r='11'/%3E%3Ccircle cx='216' cy='42' r='10'/%3E%3Ccircle cx='234' cy='56' r='10'/%3E%3Ccircle cx='214' cy='72' r='10'/%3E%3Crect x='182' y='52' width='46' height='16' rx='8'/%3E%3C/g%3E%3Cg fill='none' stroke='%236f9eb4' stroke-opacity='0.4' stroke-width='3'%3E%3Ccircle cx='174' cy='174' r='22'/%3E%3Ccircle cx='208' cy='194' r='15'/%3E%3Ccircle cx='66' cy='190' r='18'/%3E%3Ccircle cx='36' cy='210' r='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 280px 280px;
+  background-position: 0 0;
+  opacity: 0.34;
+}
+
+::selection {
+  background: rgba(141, 184, 201, 0.32);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+.page-shell {
+  position: relative;
+  z-index: 1;
+}
+
+.spa-bg-pattern {
+  position: relative;
+}
+
+.spa-bg-pattern > * {
+  position: relative;
+  z-index: 1;
+}
+
+.spa-bg-pattern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 12% 16%, rgba(141, 184, 201, 0.28) 0 16px, transparent 17px),
+    radial-gradient(circle at 26% 28%, rgba(141, 184, 201, 0.2) 0 11px, transparent 12px),
+    radial-gradient(circle at 80% 20%, rgba(111, 158, 180, 0.24) 0 13px, transparent 14px),
+    radial-gradient(circle at 88% 38%, rgba(111, 158, 180, 0.18) 0 10px, transparent 11px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat;
+  opacity: 0.95;
+}
+
+.spa-icon-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(10, 33, 52, 0.14);
+  background: rgba(255, 255, 255, 0.82);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(10, 33, 52, 0.88);
+}
+
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(10, 33, 52, 0.14);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(232, 244, 250, 0.95));
+  padding: 0.5rem 0.85rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0a2134;
+  backdrop-filter: blur(14px);
+}
+
+.section-badge::before {
+  content: '';
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 9999px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill='none' stroke='%230a2134' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 24h16v2H7zm2 2h12l-1 2H10z'/%3E%3Ccircle cx='30' cy='11' r='3'/%3E%3Ccircle cx='34' cy='15' r='2.5'/%3E%3C/g%3E%3Cg fill='%236f9eb4' fill-opacity='0.88'%3E%3Ccircle cx='30.5' cy='27' r='2.6'/%3E%3Ccircle cx='34.5' cy='23.5' r='2'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glass-panel {
+  border: 1px solid rgba(10, 33, 52, 0.12);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(239, 247, 251, 0.96));
+  color: #0a2134;
+}
+
+.glass-button {
+  border: 1px solid rgba(10, 33, 52, 0.16);
+  background: linear-gradient(135deg, rgba(141, 184, 201, 0.52), rgba(255, 255, 255, 0.96));
+  backdrop-filter: blur(16px) saturate(135%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    0 16px 34px rgba(10, 33, 52, 0.16);
+}
+
+.glass-button:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 20px 42px rgba(10, 33, 52, 0.22);
+}
