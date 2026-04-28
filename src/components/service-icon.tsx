@@ -40,7 +40,7 @@ export function ServiceIcon({ serviceName, className = 'h-6 w-6' }: ServiceIconP
     return <BathTubIcon className={className} />;
   }
 
-  if (serviceName.includes('Full Groom')) {
+  if (serviceName.includes('Full Groom') || serviceName.includes('Full Body')) {
     return <GroomIcon className={className} />;
   }
 

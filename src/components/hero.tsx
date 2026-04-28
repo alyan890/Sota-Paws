@@ -43,17 +43,17 @@ export function Hero() {
           style={prefersReducedMotion ? undefined : { y: textY }}
           className="relative z-10 max-w-3xl pt-10 lg:pt-24 will-change-transform"
         >
-          <span className="section-badge">Premium care for delightfully weird dogs</span>
-          <h1 className="mt-6 max-w-4xl font-heading text-5xl leading-[0.92] tracking-tight text-ink md:text-7xl xl:text-8xl">
-            Trusted grooming with a little goofy grin built in.
+          <span className="section-badge">Land of 10,000 wags</span>
+          <h1 className="mt-6 max-w-4xl font-heading text-3xl leading-[0.92] tracking-tight text-ink md:text-4xl xl:text-5xl">
+            “In the whole history of the world there is but one thing that money cannot buy — to wit — the wag of a dog's tail.”
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-ink/70 md:text-lg">
-            Sota Paws Dog Spa blends expert handling, warm bath rituals, coat-safe products, and senior-friendly pacing with just enough silly energy to make dogs look happy on purpose.
+            Sota Paws Dog Spa blends expert handling, warm bath sessions, coat-safe products, and senior-friendly pacing to make dogs look and feel their absolute best!
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <span className="spa-icon-chip">
               <BathIcon />
-              Warm Bath Ritual
+              Warm Bath Sessions
             </span>
             <span className="spa-icon-chip">
               <BoneIcon />

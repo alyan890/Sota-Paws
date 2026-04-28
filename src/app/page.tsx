@@ -17,7 +17,7 @@ export default function HomePage() {
               <span className="section-badge">Spa moments</span>
               <h2 className="mt-5 font-heading text-4xl leading-tight text-ink md:text-5xl">A real dog spa look: bath, brush, fluff, finish.</h2>
             </div>
-            <p className="max-w-2xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">From warm-water bath prep to fluffy post-dry styling, these moments make the spa identity clear at a glance.</p>
+              <p className="max-w-2xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">From warm-water bath prep to fluffy post-dry styling, these moments make the spa identity clear at a glance.</p>
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -128,7 +128,7 @@ export default function HomePage() {
           </div>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {[
-              ['Gentle introductions', 'We start with low-pressure routines and a quiet environment.'],
+              ['Gentle introductions', "We start with low-pressure routines and a quiet environment — puppies and first-timers get short intro sessions so they'll become pros in no time!"],
               ['Health-aware care', 'We listen closely to vet instructions, mobility notes, and sensitivities.'],
               ['Comfort breaks', 'Appointments are paced with real breaks instead of one long rushed session.'],
             ].map(([title, description]) => (
@@ -143,7 +143,7 @@ export default function HomePage() {
         <SectionReveal className="mt-24 grid gap-6 lg:grid-cols-[1fr,1.2fr] lg:items-start">
           <div className="rounded-[2.5rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.86)] p-8 shadow-soft">
             <span className="section-badge">Pricing preview</span>
-            <h2 className="mt-6 font-heading text-4xl text-ink">Premium care with clear, simple pricing.</h2>
+            <h2 className="mt-6 font-heading text-4xl text-ink">Premium care from nose to tail.</h2>
             <p className="mt-4 text-base leading-8 text-[rgba(10,33,52,0.72)]">Transparent starting prices for the most requested grooming experiences.</p>
             <Link href="/services" className="glass-button mt-8 inline-flex rounded-full px-6 py-3 text-sm font-semibold text-ink/90 transition hover:text-ink">
               View full pricing
@@ -198,7 +198,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
             <div>
               <span className="section-badge">Book now</span>
-              <h2 className="mt-6 font-heading text-4xl leading-tight text-ink md:text-5xl">Ready for a cleaner, stronger, more trusted grooming studio?</h2>
+              <h2 className="mt-6 font-heading text-4xl leading-tight text-ink md:text-5xl">Premium grooming from nose to tail for pups who need trust, comfort, and a happy finish.</h2>
             </div>
             <Link href="/booking" className="glass-button inline-flex w-fit rounded-full px-7 py-4 text-sm font-semibold text-ink/90 transition hover:text-ink">
               Book Your Visit

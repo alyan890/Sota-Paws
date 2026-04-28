@@ -64,11 +64,11 @@ export function BookingForm() {
           <span>Service type</span>
           <select
             name="serviceType"
-            defaultValue="Full Groom Experience"
+            defaultValue="Full Body Hair Cut"
             className="rounded-2xl border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.95)] px-4 py-3 text-[rgba(10,33,52,0.94)] outline-none transition focus:border-[rgba(111,158,180,0.52)] focus:bg-[rgba(248,252,255,0.98)]"
           >
             <option>Signature Spa Bath</option>
-            <option>Full Groom Experience</option>
+            <option>Full Body Hair Cut</option>
             <option>Senior Comfort Groom</option>
             <option>Anxiety-Friendly Refresh</option>
           </select>

@@ -13,9 +13,9 @@ export const services = [
     description: 'A calming bath, blow dry, nail care, ear cleaning, and a finishing spritz tailored to your dog.',
   },
   {
-    name: 'Full Groom Experience',
+    name: 'Full Body Hair Cut',
     price: '$112+',
-    description: 'Complete coat maintenance, breed styling, paw trim, hygiene trim, and a soft finish that lasts.',
+    description: 'Complete coat maintenance, full body hair cut, paw trim, hygiene trim, and a soft finish that lasts.',
   },
   {
     name: 'Senior Comfort Groom',
@@ -124,7 +124,7 @@ export const pricingPreview = [
     details: 'Ideal for maintenance visits, short coats, and a fresh, polished finish.',
   },
   {
-    title: 'Full Groom',
+    title: 'Full Body Hair Cut',
     price: '$112',
     details: 'Breed styling, coat shaping, and a premium spa finish for regular upkeep.',
   },
