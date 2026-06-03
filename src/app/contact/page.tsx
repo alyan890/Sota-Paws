@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="rounded-[2.5rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.86)] p-8 shadow-soft">
           <h2 className="font-heading text-4xl text-ink">Contact details</h2>
           <div className="mt-6 space-y-4 text-base text-[rgba(10,33,52,0.74)]">
-            <p>Email: hello@sotapaws.com</p>
+            <p>Email: Sotapawsdogspa@gmail.com</p>
             <p>Phone: (555) 018-PAWS</p>
             <p>Hours: Monday through Saturday, 9am - 6pm</p>
             <p>Service area: Premium neighborhood grooming and spa visits by appointment.</p>

@@ -28,7 +28,7 @@ export function SiteFooter() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[rgba(10,33,52,0.66)]">Contact</p>
           <div className="mt-4 space-y-2 text-sm text-[rgba(10,33,52,0.78)]">
-            <p>hello@sotapaws.com</p>
+            <p>Sotapawsdogspa@gmail.com</p>
             <p>(555) 018-PAWS</p>
             <p>Mon - Sat, 9am - 6pm</p>
           </div>
