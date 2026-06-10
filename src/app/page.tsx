@@ -4,6 +4,7 @@ import { Hero } from '@/components/hero';
 import { SectionReveal } from '@/components/section-reveal';
 import { ServiceIcon } from '@/components/service-icon';
 import { pricingPreview, retrieverSpotlights, services, testimonials } from '@/data/site';
+import PricingCard from '@/components/pricing-card';
 
 export default function HomePage() {
   return (
@@ -66,6 +67,28 @@ export default function HomePage() {
               <p className="mt-3 text-sm leading-7 text-[rgba(10,33,52,0.74)]">{service.description}</p>
             </article>
           ))}
+        </SectionReveal>
+
+        <SectionReveal className="mt-10">
+          <span className="section-badge">Featured</span>
+          <h2 className="mt-4 font-heading text-4xl text-ink">Featured services</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">Popular choices we recommend for most dogs.</p>
+
+          <div className="mt-6 grid gap-5 md:grid-cols-2">
+            {services
+              .filter((s) => s.name === 'Signature Spa Bath' || s.name === 'Full Body Hair Cut')
+              .map((s) => (
+                <article key={s.name} className="rounded-[2rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.86)] p-6 shadow-soft">
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="font-heading text-2xl text-ink">{s.name}</h3>
+                    <span className="text-sm font-semibold text-gold">{s.price}</span>
+                  </div>
+                  <div className="mt-4">
+                    <PricingCard serviceName={s.name} startingPrice={s.price} pricing={s.pricing} description={s.description} />
+                  </div>
+                </article>
+              ))}
+          </div>
         </SectionReveal>
 
         <SectionReveal className="mt-24 grid gap-10 lg:grid-cols-[0.95fr,1.05fr] lg:items-center">

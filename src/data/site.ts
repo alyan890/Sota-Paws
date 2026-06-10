@@ -9,13 +9,27 @@ export const navLinks = [
 export const services = [
   {
     name: 'Signature Spa Bath',
-    price: '$78+',
-    description: 'A calming bath, blow dry, nail care, ear cleaning, and a finishing spritz tailored to your dog.',
+    price: 'See details',
+    pricing: [
+      { tier: 'X-Small', weight: '0-15 lbs', price: '$50-55' },
+      { tier: 'Small', weight: '16-30 lbs', price: '$60-65' },
+      { tier: 'Medium', weight: '31-45 lbs', price: '$70-75' },
+      { tier: 'Large', weight: '46-80 lbs', price: '$80-85' },
+      { tier: 'X-Large', weight: '81-100+ lbs', price: '$90-95' },
+    ],
+    description: `Signature baths. Light scissor: add-in to baths (includes trimming of feet, face, and sanitary area - no full body trim). 3 in one package: $30 (includes upgraded shampoo, glands, and teeth).`,
   },
   {
     name: 'Full Body Hair Cut',
-    price: '$112+',
-    description: 'Complete coat maintenance, full body hair cut, paw trim, hygiene trim, and a soft finish that lasts.',
+    price: 'See details',
+    pricing: [
+      { tier: 'X-Small', weight: '0-15 lbs', price: '$80-85' },
+      { tier: 'Small', weight: '16-30 lbs', price: '$90-110' },
+      { tier: 'Medium', weight: '31-45 lbs', price: '$125-140' },
+      { tier: 'Large', weight: '46-80 lbs', price: '$145-160' },
+      { tier: 'X-Large', weight: '81-100+ lbs', price: '$165-200' },
+    ],
+    description: `Full body hair cuts. All prices listed are starting prices; additional fees may be added depending on coat condition, behavior, or other factors.`,
   },
   {
     name: 'Senior Comfort Groom',
@@ -26,6 +40,19 @@ export const services = [
     name: 'Anxiety-Friendly Refresh',
     price: '$96+',
     description: 'Shorter sessions, quiet room options, slower introductions, and lots of reassurance throughout.',
+  },
+  {
+    name: 'Add-ons & Extras',
+    price: 'See details',
+    pricing: [
+      { tier: 'Custom shampoo', note: '', price: '$7' },
+      { tier: 'Teeth brushing', note: '', price: '$12' },
+      { tier: 'Nail trim and buff', note: '', price: '$25' },
+      { tier: 'Dematting', note: 'included brushing of small tangles and knots; additional fee for extreme mats', price: 'varies' },
+      { tier: 'Anal gland expression', note: '', price: '$18' },
+      { tier: '3 in one package', note: 'includes upgraded shampoo, glands and teeth', price: '$30' },
+    ],
+    description: `Add-ons and extras. Note: All dogs must be current on the rabies vaccine. If your dog cannot receive the vaccine we will gladly make exceptions per vet note. Prices are starting and additional fees may be added depending on coat conditions and behavior.`,
   },
 ];
 

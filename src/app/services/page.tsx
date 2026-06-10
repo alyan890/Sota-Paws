@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { SectionReveal } from '@/components/section-reveal';
 import { ServiceIcon } from '@/components/service-icon';
+import PricingCard from '@/components/pricing-card';
 import { services } from '@/data/site';
 
 export default function ServicesPage() {
@@ -24,9 +25,18 @@ export default function ServicesPage() {
                 </span>
                 <h2 className="font-heading text-3xl text-ink">{service.name}</h2>
               </div>
-              <span className="rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-4 py-2 text-sm font-semibold text-gold">{service.price}</span>
+              <div className="flex items-center gap-4">
+                <span className="rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-4 py-2 text-sm font-semibold text-gold">{service.price}</span>
+              </div>
             </div>
-            <p className="mt-4 text-sm leading-7 text-[rgba(10,33,52,0.72)]">{service.description}</p>
+            <div className="mt-4">
+              <PricingCard
+                serviceName={service.name}
+                startingPrice={service.price}
+                pricing={service.pricing}
+                description={service.description}
+              />
+            </div>
           </article>
         ))}
       </SectionReveal>
