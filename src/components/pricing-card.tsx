@@ -20,20 +20,22 @@ export function PricingCard({
 
   return (
     <div>
-      <div className="flex items-center gap-4">
-        <span className="rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-3 py-1 text-sm font-semibold text-gold">{startingPrice ?? 'See details'}</span>
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
+        <span className="inline-flex w-fit rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-3 py-1 text-sm font-semibold text-gold">
+          {startingPrice ?? 'See details'}
+        </span>
         {pricing && pricing.length > 0 ? (
           <button
             type="button"
             onClick={() => setOpen((s) => !s)}
-            className="ml-2 rounded-full border px-3 py-1 text-sm hover:bg-[rgba(10,33,52,0.04)]"
+            className="inline-flex w-full items-center justify-center rounded-full border border-[rgba(10,33,52,0.14)] px-4 py-2 text-sm font-semibold hover:bg-[rgba(10,33,52,0.04)] sm:w-auto"
           >
             {open ? 'Hide sizes' : 'View sizes & prices'}
           </button>
         ) : null}
         <Link
           href={`/booking?service=${encodeURIComponent(serviceName)}`}
-          className="ml-auto glass-button rounded-full px-4 py-2 text-sm font-semibold"
+          className="inline-flex w-full items-center justify-center rounded-full px-4 py-2 text-sm font-semibold sm:ml-auto sm:w-auto glass-button"
         >
           Book service
         </Link>
@@ -57,7 +59,7 @@ export function PricingCard({
               ))}
             </div>
           </div>
-          <div className="mt-4 hidden rounded-xl border border-[rgba(10,33,52,0.06)] bg-[rgba(243,249,252,0.96)] p-4 text-sm md:block" style={{ display: open ? 'block' : 'none' }}>
+          <div className={`mt-4 hidden rounded-xl border border-[rgba(10,33,52,0.06)] bg-[rgba(243,249,252,0.96)] p-4 text-sm md:block ${open ? '' : 'md:hidden'}`}>
             <div className="grid gap-2 md:grid-cols-3">
               {pricing.map((t) => (
                 <div key={t.tier} className="rounded-lg border border-[rgba(10,33,52,0.06)] bg-white p-3">
