@@ -25,9 +25,11 @@ export default function ServicesPage() {
                 </span>
                 <h2 className="font-heading text-3xl text-ink">{service.name}</h2>
               </div>
-              <div className="flex items-center gap-4">
-                <span className="rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-4 py-2 text-sm font-semibold text-gold">{service.price}</span>
-              </div>
+              {service.price ? (
+                <div className="flex items-center gap-4">
+                  <span className="rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-4 py-2 text-sm font-semibold text-gold">{service.price}</span>
+                </div>
+              ) : null}
             </div>
             <div className="mt-4">
               <PricingCard

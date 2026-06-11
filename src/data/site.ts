@@ -33,12 +33,12 @@ export const services = [
   },
   {
     name: 'Senior Comfort Groom',
-    price: '$124+',
+    price: '',
     description: 'Extra time, gentle handling, warm towels, break-friendly pacing, and a spa plan for older dogs.',
   },
   {
     name: 'Anxiety-Friendly Refresh',
-    price: '$96+',
+    price: '',
     description: 'Shorter sessions, quiet room options, slower introductions, and lots of reassurance throughout.',
   },
   {

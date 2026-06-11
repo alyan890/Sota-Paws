@@ -81,7 +81,7 @@ export default function HomePage() {
                 <article key={s.name} className="rounded-[2rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.86)] p-6 shadow-soft">
                   <div className="flex items-center justify-between gap-3">
                     <h3 className="font-heading text-2xl text-ink">{s.name}</h3>
-                    <span className="text-sm font-semibold text-gold">{s.price}</span>
+                    {s.price ? <span className="text-sm font-semibold text-gold">{s.price}</span> : null}
                   </div>
                   <div className="mt-4">
                     <PricingCard serviceName={s.name} startingPrice={s.price} pricing={s.pricing} description={s.description} />

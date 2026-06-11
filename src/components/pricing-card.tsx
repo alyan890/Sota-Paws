@@ -21,9 +21,11 @@ export function PricingCard({
   return (
     <div>
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
-        <span className="inline-flex w-fit rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-3 py-1 text-sm font-semibold text-gold">
-          {startingPrice ?? 'See details'}
-        </span>
+        {startingPrice ? (
+          <span className="inline-flex w-fit rounded-full border border-[rgba(199,162,74,0.24)] bg-[rgba(199,162,74,0.16)] px-3 py-1 text-sm font-semibold text-gold">
+            {startingPrice}
+          </span>
+        ) : null}
         {pricing && pricing.length > 0 ? (
           <button
             type="button"
