@@ -119,7 +119,7 @@ export default function HomePage() {
             <div className="grid gap-4 sm:grid-cols-[1.15fr,0.85fr]">
               <div className="relative min-h-[340px] overflow-hidden rounded-[2rem] border border-[rgba(10,33,52,0.12)] bg-[linear-gradient(180deg,rgba(38,30,24,0.98),rgba(22,18,15,0.98))]">
                 <Image
-                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1300&q=80"
+                  src="/images/WhatsApp Image 2026-06-12 at 7.44.39 AM.jpeg"
                   alt="Golden retriever resting during a spa grooming session"
                   fill
                   className="object-cover object-center"

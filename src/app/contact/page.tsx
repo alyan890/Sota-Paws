@@ -18,7 +18,7 @@ export default function ContactPage() {
             <p>Email: Sotapawsdogspa@gmail.com</p>
             <p>Phone: (555) 018-PAWS</p>
             <p>Hours: Monday through Saturday, 9am - 6pm</p>
-            <p>Service area: Premium neighborhood grooming and spa visits by appointment.</p>
+            <p>Location: 9030 Lyndale Ave Bloomington MN 55420.</p>
           </div>
         </div>
 

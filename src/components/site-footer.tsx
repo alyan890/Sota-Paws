@@ -31,6 +31,7 @@ export function SiteFooter() {
             <p>Sotapawsdogspa@gmail.com</p>
             <p>(555) 018-PAWS</p>
             <p>Mon - Sat, 9am - 6pm</p>
+            <p>9030 Lyndale Ave Bloomington MN 55420</p>
           </div>
         </div>
       </div>
