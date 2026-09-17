@@ -18,24 +18,24 @@ export default function HomePage() {
               <span className="section-badge">Spa moments</span>
               <h2 className="mt-5 font-heading text-4xl leading-tight text-ink md:text-5xl">A real dog spa look: bath, brush, fluff, finish.</h2>
             </div>
-              <p className="max-w-2xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">From warm-water bath prep to fluffy post-dry styling, these moments make the spa identity clear at a glance.</p>
+              <p className="max-w-2xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">Goldens arrive convinced they are already perfect, then act personally offended when the bath proves them right. We call it premium care; they call it an outrageous amount of attention.</p>
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             {[
               {
-                src: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1300&q=80',
-                alt: 'Dog enjoying a bath with shampoo bubbles',
+                src: '/images/golden-retriever-bath-time-soapy-head-shower-spray-clean-pup-bathroom-setting-social-media-po_896558-71827.jpg',
+                alt: 'Golden retriever enjoying a soapy bath',
                 label: 'Bath & Bubbles',
               },
               {
-                src: 'https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1300&q=80',
-                alt: 'Dog wrapped in a towel after spa bath',
+                src: '/images/Golden-Retriever-bathes-with-bath-accessories.-ss220804.jpg',
+                alt: 'Golden retriever relaxing with a towel and bath bubbles',
                 label: 'Towel Dry Care',
               },
               {
-                src: 'https://images.unsplash.com/photo-1505628346881-b72b27e84530?auto=format&fit=crop&w=1300&q=80',
-                alt: 'Golden retriever with clean fluffy coat after grooming',
+                src: '/images/how-to-groom-golden-retriever(i1ef).jpg',
+                alt: 'Golden retriever outdoors in warm natural light',
                 label: 'Fluffy Finish',
               },
             ].map((item) => (

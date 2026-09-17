@@ -76,48 +76,24 @@ export const testimonials = [
 
 export const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever smiling after a spa grooming session',
+    src: '/images/71zxDgNmE8L._AC_SL1500_.jpg',
+    alt: 'Curly-haired dog reading a newspaper and relaxing after a bath',
   },
   {
-    src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever portrait in soft natural light',
+    src: '/images/basic-equipment-1024x701.jpg',
+    alt: 'Golden retriever in a colorful dog grooming salon',
   },
   {
-    src: 'https://images.unsplash.com/photo-1541599540903-216a46caad8f?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Dog grooming tools arranged on a clean premium counter',
+    src: '/images/golden-retriever-bath-time-soapy-head-shower-spray-clean-pup-bathroom-setting-social-media-po_896558-71827.jpg',
+    alt: 'Golden retriever enjoying a soapy bath',
   },
   {
-    src: 'https://images.unsplash.com/photo-1435788029509-5d938d3bd7d7?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever enjoying a calm and gentle grooming experience',
+    src: '/images/Golden-Retriever-bathes-with-bath-accessories.-ss220804.jpg',
+    alt: 'Golden retriever relaxing with a towel and bath bubbles',
   },
   {
-    src: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Dog spa towel and grooming setup with soft neutral tones',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever close-up with a clean, plush coat',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f0?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever portrait on a light studio background',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80&sat=-10',
-    alt: 'Golden retriever seated and looking directly at camera',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever standing in a bright clean setting',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1601758123927-5f4ccf7f4f72?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever close-up with expressive eyes',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever resting after grooming in a calm studio style shot',
+    src: '/images/how-to-groom-golden-retriever(i1ef).jpg',
+    alt: 'Golden retriever outdoors in warm natural light',
   },
   {
     src: '/images/WhatsApp Image 2026-09-16 at 7.40.13 PM.jpeg',
@@ -131,23 +107,23 @@ export const galleryImages = [
 
 export const retrieverSpotlights = [
   {
-    src: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f0?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever portrait on a light studio background',
+    src: '/images/basic-equipment-1024x701.jpg',
+    alt: 'Golden retriever in a colorful dog grooming salon',
     title: 'Studio portrait',
   },
   {
-    src: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever standing in a bright clean setting',
+    src: '/images/how-to-groom-golden-retriever(i1ef).jpg',
+    alt: 'Golden retriever outdoors in warm natural light',
     title: 'Standing pose',
   },
   {
-    src: 'https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever resting after grooming in a calm studio style shot',
+    src: '/images/Golden-Retriever-bathes-with-bath-accessories.-ss220804.jpg',
+    alt: 'Golden retriever relaxing with a towel and bath bubbles',
     title: 'After grooming',
   },
   {
-    src: 'https://images.unsplash.com/photo-1601758123927-5f4ccf7f4f72?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Golden retriever close-up with expressive eyes',
+    src: '/images/golden-retriever-bath-time-soapy-head-shower-spray-clean-pup-bathroom-setting-social-media-po_896558-71827.jpg',
+    alt: 'Golden retriever enjoying a soapy bath',
     title: 'Close-up detail',
   },
 ];
