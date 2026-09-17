@@ -17,7 +17,7 @@ export const services = [
       { tier: 'Large', weight: '46-80 lbs', price: '$80-85' },
       { tier: 'X-Large', weight: '81-100+ lbs', price: '$90-95' },
     ],
-    description: `Signature baths. Light scissor: add-in to baths (includes trimming of feet, face, and sanitary area - no full body trim). 3 in one package: $30 (includes upgraded shampoo, glands, and teeth).`,
+    description: `Signature baths. Light scissor: add-in to baths (includes trimming of feet, face, and sanitary area - no full body trim). 10,000 Lakes Package: $30 (includes upgraded shampoo, anal gland expression, and teeth brushing).`,
   },
   {
     name: 'Full Body Hair Cut',
@@ -50,7 +50,7 @@ export const services = [
       { tier: 'Nail trim and buff', note: '', price: '$25' },
       { tier: 'Dematting', note: 'included brushing of small tangles and knots; additional fee for extreme mats', price: 'varies' },
       { tier: 'Anal gland expression', note: '', price: '$18' },
-      { tier: '3 in one package', note: 'includes upgraded shampoo, glands and teeth', price: '$30' },
+      { tier: '10,000 Lakes Package', note: 'includes upgraded shampoo, anal gland expression, and teeth brushing', price: '$30' },
     ],
     description: `Add-ons and extras. Note: All dogs must be current on the rabies vaccine. If your dog cannot receive the vaccine we will gladly make exceptions per vet note. Prices are starting and additional fees may be added depending on coat conditions and behavior.`,
   },
@@ -146,18 +146,8 @@ export const retrieverSpotlights = [
 
 export const pricingPreview = [
   {
-    title: 'Bath & Brush',
-    price: '$78',
-    details: 'Ideal for maintenance visits, short coats, and a fresh, polished finish.',
-  },
-  {
-    title: 'Full Body Hair Cut',
-    price: '$112',
-    details: 'Breed styling, coat shaping, and a premium spa finish for regular upkeep.',
-  },
-  {
     title: 'Care Plus',
-    price: '$124',
+    price: '',
     details: 'Extra handling time for senior dogs, anxious pups, and sensitive situations.',
   },
 ];

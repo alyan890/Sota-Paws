@@ -177,7 +177,7 @@ export default function HomePage() {
             {pricingPreview.map((item) => (
               <article key={item.title} className="rounded-[2rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.90)] p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-lift">
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">{item.title}</p>
-                <p className="mt-5 font-heading text-5xl text-ink">{item.price}</p>
+                {item.price ? <p className="mt-5 font-heading text-5xl text-ink">{item.price}</p> : null}
                 <p className="mt-4 text-sm leading-7 text-[rgba(10,33,52,0.70)]">{item.details}</p>
               </article>
             ))}

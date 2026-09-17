@@ -14,7 +14,7 @@ export function SiteFooter() {
             className="h-auto w-[180px] object-contain"
           />
           <p className="mt-4 max-w-md text-sm leading-7 text-[rgba(10,33,52,0.72)]">
-            Premium grooming with a dark, grounded, slightly goofy energy for pups who need trust, comfort, and a happy finish.
+            Premium grooming for pups who need trust, comfort, and a happy finish.
           </p>
         </div>
         <div>
@@ -29,14 +29,16 @@ export function SiteFooter() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[rgba(10,33,52,0.66)]">Contact</p>
           <div className="mt-4 space-y-2 text-sm text-[rgba(10,33,52,0.78)]">
             <p>Sotapawsdogspa@gmail.com</p>
-            <p>(555) 018-PAWS</p>
-            <p>Mon - Sat, 9am - 6pm</p>
+            <p><a href="tel:763-345-2809">763-345-2809</a></p>
+            <p>Tuesday–Friday: 9:00 AM – 4:00 PM</p>
+            <p>Saturday: 9:00 AM – 2:00 PM</p>
+            <p>Hours may vary by appointment.</p>
             <p>9030 Lyndale Ave Bloomington MN 55420</p>
           </div>
         </div>
       </div>
       <div className="border-t border-[rgba(10,33,52,0.12)] px-6 py-5 text-center text-xs uppercase tracking-[0.24em] text-[rgba(10,33,52,0.46)] md:px-10">
-        Lighter vibe. Goofier dogs. Better grooms.
+        Land of 10,000 Wags
       </div>
     </footer>
   );

@@ -13,6 +13,7 @@ export default function ServicesPage() {
         <p className="mt-6 max-w-3xl text-base leading-8 text-[rgba(10,33,52,0.72)]">
           Each service is designed for a different level of coat care and comfort support. We always adapt the session to your dog’s needs.
         </p>
+        <p className="mt-4 max-w-3xl text-sm leading-7 text-[rgba(10,33,52,0.72)]">3% surcharge applies to all credit and debit card transactions.</p>
       </SectionReveal>
 
       <SectionReveal className="mt-14 grid gap-5 md:grid-cols-2">
