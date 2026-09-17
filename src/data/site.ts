@@ -119,6 +119,14 @@ export const galleryImages = [
     src: 'https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1200&q=80',
     alt: 'Golden retriever resting after grooming in a calm studio style shot',
   },
+  {
+    src: '/images/WhatsApp Image 2026-09-16 at 7.40.13 PM.jpeg',
+    alt: 'Black and white dog sitting outdoors among fallen leaves',
+  },
+  {
+    src: '/images/WhatsApp Image 2026-09-16 at 7.40.14 PM.jpeg',
+    alt: 'Brown dog close-up portrait outdoors',
+  },
 ];
 
 export const retrieverSpotlights = [
