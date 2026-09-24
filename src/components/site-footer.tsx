@@ -29,7 +29,7 @@ export function SiteFooter() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[rgba(10,33,52,0.66)]">Contact</p>
           <div className="mt-4 space-y-2 text-sm text-[rgba(10,33,52,0.78)]">
             <p>Sotapawsdogspa@gmail.com</p>
-            <p><a href="tel:763-345-2809">763-345-2809</a></p>
+            <p><a href="tel:736-346-2809">736-346-2809</a></p>
             <p>Tuesday–Friday: 9:00 AM – 4:00 PM</p>
             <p>Saturday: 9:00 AM – 2:00 PM</p>
             <p>Hours may vary by appointment.</p>

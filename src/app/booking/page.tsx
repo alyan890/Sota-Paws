@@ -1,4 +1,4 @@
-import { BookingForm } from '@/components/booking-form';
+import { DaySmartBooking } from '@/components/day-smart-booking';
 import { SectionReveal } from '@/components/section-reveal';
 
 export default function BookingPage() {
@@ -16,13 +16,13 @@ export default function BookingPage() {
         <div className="rounded-[2.5rem] border border-[rgba(10,33,52,0.14)] bg-[rgba(255,255,255,0.86)] p-8 shadow-soft">
           <h2 className="font-heading text-4xl text-ink">What to include</h2>
           <div className="mt-6 space-y-4 text-sm leading-7 text-[rgba(10,33,52,0.74)]">
-            <p>Use the form for age, breed, preferred stylist, and any behavioral or medical notes.</p>
-            <p>Upload a photo if you want us to see coat texture or styling goals in advance.</p>
-            <p>We currently send form data to a placeholder API route, ready to be swapped for email delivery or CRM integration.</p>
+            <p>Choose your service and preferred time in the DaySmart booking window.</p>
+            <p>Add your dog’s age, breed, and any behavioral or medical notes so we can prepare the right pace and setup.</p>
+            <p>Booking is handled securely through DaySmart, and we’ll follow up to confirm your appointment.</p>
           </div>
         </div>
 
-        <BookingForm />
+        <DaySmartBooking />
       </SectionReveal>
     </div>
   );

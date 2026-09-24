@@ -16,7 +16,7 @@ export default function ContactPage() {
           <h2 className="font-heading text-4xl text-ink">Contact details</h2>
           <div className="mt-6 space-y-4 text-base text-[rgba(10,33,52,0.74)]">
             <p>Email: Sotapawsdogspa@gmail.com</p>
-            <p>Phone: <a href="tel:763-345-2809">763-345-2809</a></p>
+            <p>Phone: <a href="tel:736-346-2809">736-346-2809</a></p>
             <p>Hours: Tuesday–Friday: 9:00 AM – 4:00 PM<br />Saturday: 9:00 AM – 2:00 PM<br />Hours may vary by appointment.</p>
             <p>Location: 9030 Lyndale Ave Bloomington MN 55420.</p>
           </div>
