@@ -24,8 +24,25 @@ const accentFont = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Sota Paws Dog Spa',
+  title: 'Sota Paws Dog Spa - Premium Dog Grooming & Spa',
   description: 'Premium dog grooming and spa services for senior and anxious dogs.',
+  openGraph: {
+    title: 'Sota Paws Dog Spa - Premium Dog Grooming & Spa',
+    description: 'Premium dog grooming and spa services for senior and anxious dogs.',
+    images: [
+      {
+        url: '/images/logo.png',
+        width: 220,
+        height: 74,
+        alt: 'Sota Paws Dog Spa logo',
+      },
+    ],
+  },
+  twitter: {
+    title: 'Sota Paws Dog Spa - Premium Dog Grooming & Spa',
+    description: 'Premium dog grooming and spa services for senior and anxious dogs.',
+    images: ['/images/logo.png'],
+  },
 };
 
 export default function RootLayout({
