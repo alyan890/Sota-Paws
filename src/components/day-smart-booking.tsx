@@ -14,6 +14,17 @@ export function DaySmartBooking() {
           style={{ border: 'none' }}
         />
       </div>
+      <div className="mt-4 flex flex-col gap-2 text-sm text-[rgba(10,33,52,0.72)]">
+        <p>Having trouble viewing the booking calendar?</p>
+        <a
+          href={DAYSMART_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-fit font-semibold text-ink underline underline-offset-4 hover:text-[rgba(10,33,52,0.70)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
+        >
+          Open the booking calendar in a new tab
+        </a>
+      </div>
     </div>
   );
 }
